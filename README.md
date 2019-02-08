@@ -47,7 +47,7 @@ You should be able to see the result on your terminal.
 ## Built With
 
 * [Python](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [PyTorch](https://maven.apache.org/) - Dependency Management
+* [PyTorch](https://pytorch.org/) - Dependency Management
 * [matplotlib](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Authors
