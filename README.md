@@ -47,7 +47,7 @@ You should be able to see the result on your terminal.
 
 ## Built With
 
-* [Python]()https://www.python.org/ - Language used
+* [Python](https://www.python.org/) - Language used
 * [PyTorch](https://pytorch.org/) - Python library
 * [matplotlib](https://matplotlib.org/) - Python library
 
