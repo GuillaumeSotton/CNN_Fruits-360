@@ -7,7 +7,7 @@ The program was made thanks to PyTorch library.
 ## Date
 + February 2019
 
-## First steps using the app :
+## Installing :
 - If you don't have pip3 on Linux:
 ```bash
 sudo apt install python3-pip
