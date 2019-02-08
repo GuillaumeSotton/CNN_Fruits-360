@@ -1,5 +1,10 @@
-# Github for DEA project M2 Bioinformatics Bordeaux
+# Welcome on my CNN project (M2 Bioinformatics Bordeaux)
 Design a convolutional neural network to classify the Fruits-360 dataset
+
+![PyTorch](https://cdn-images-1.medium.com/max/1200/1*KKADWARPMxHb-WMxCgW_xA.png)
+
+## Programming languages used
++ Python 3.7
 
 ## First steps using the app :
 - If you don't have pip3 on Linux:
