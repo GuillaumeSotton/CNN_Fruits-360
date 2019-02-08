@@ -41,4 +41,4 @@ python projet.py
 
 You should be able to see the result on your terminal.
 
-## The source code is in the server repository 
+## The source code is in the file projet.py 
