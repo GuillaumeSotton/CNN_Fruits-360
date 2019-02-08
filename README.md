@@ -1,5 +1,6 @@
 # Welcome on my CNN project (M2 Bioinformatics Bordeaux)
 Design a convolutional neural network to classify the Fruits-360 dataset
+The program was made thanks to PyTorch library.
 
 ![PyTorch](https://cdn-images-1.medium.com/max/1200/1*KKADWARPMxHb-WMxCgW_xA.png)
 
@@ -46,11 +47,11 @@ You should be able to see the result on your terminal.
 
 ## Built With
 
-* [Python](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [PyTorch](https://pytorch.org/) - Dependency Management
-* [matplotlib](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Python]()https://www.python.org/ - Language used
+* [PyTorch](https://pytorch.org/) - Python library
+* [matplotlib](https://matplotlib.org/) - Python library
 
 ## Authors
 
-* **SOTTON GUILLAUME** - *Student* - [GuillaumeSotton](https://github.com/GuillaumeSotton)
+* **SOTTON GUILLAUME** - [GuillaumeSotton](https://github.com/GuillaumeSotton)
 
