@@ -6,9 +6,6 @@ Design a convolutional neural network to classify the Fruits-360 dataset
 ## Date
 + February 2019
 
-## Programming languages used
-+ Python 3.7
-
 ## First steps using the app :
 - If you don't have pip3 on Linux:
 ```bash
@@ -41,12 +38,19 @@ pip3 install torchvision
 python -m pip install -U matplotlib
 ```
 
-
 To run the script, download it and write :
 ```bash
 python projet.py
 ```
-
 You should be able to see the result on your terminal.
 
-## The source code is in the file projet.py 
+## Built With
+
+* [Python](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [PyTorch](https://maven.apache.org/) - Dependency Management
+* [matplotlib](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
+## Authors
+
+* **SOTTON GUILLAUME** - *Student* - [GuillaumeSotton](https://github.com/GuillaumeSotton)
+
