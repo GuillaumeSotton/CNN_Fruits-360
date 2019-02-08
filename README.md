@@ -3,6 +3,9 @@ Design a convolutional neural network to classify the Fruits-360 dataset
 
 ![PyTorch](https://cdn-images-1.medium.com/max/1200/1*KKADWARPMxHb-WMxCgW_xA.png)
 
+## Date
++ February 2019
+
 ## Programming languages used
 + Python 3.7
 
