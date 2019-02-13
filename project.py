@@ -87,10 +87,6 @@ class Net(nn.Module):
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 print(device)
 net=Net().to(device)
-#test=torch.cuda.is_available()
-#print (test)
-#net=Net()
-#net.cuda()
 print(net)
 
 #Define the loss function
