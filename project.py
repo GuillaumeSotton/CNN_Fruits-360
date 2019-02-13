@@ -98,7 +98,7 @@ criterion = nn.CrossEntropyLoss()
 #Define the optimizer
 optimizer=optim.SGD(net.parameters(),lr=0.01,momentum=0.9)
 
-epochs=2
+epochs=20
 for epoch in range(epochs):
 	print ("epoch #", epoch)
 	running_loss=0.0
@@ -109,16 +109,15 @@ for epoch in range(epochs):
 		
 		#train
 		output=net(inputs)
-		#correct = output.max(1)[1].eq(labels).sum()
-		#print ("no. of correct items classified: ", correct.item())
 		loss=criterion(output,labels)
+		
+		print ("loss: ", loss.item())
+		running_loss+=loss.item()
 		loss.backward()
 		optimizer.step()
-
-		running_loss+=loss.item()
-		if (i % 20 == 100): #print every 2000 mini-batches
-				print ('[%d,%5d] loss: %.3f' % (epoch+1,i+1,running_loss/2000))
-				running_loss=0.0
+		#if (i % 2000 == 1999): #print every 2000 mini-batches
+		#		print ('[%d,%5d] loss: %.3f' % (epoch+1,i+1,running_loss/2000))
+		#		running_loss=0.0
 print ('Finished Training')
 
 def imshow(img):
